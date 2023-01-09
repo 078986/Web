@@ -1,0 +1,59 @@
+*{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3rem;
+    margin-top: 5rem;
+}
+form{
+    width: 60%;
+}
+form input[type="text"]{
+    width: 60%;
+    padding: 1rem;
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    font-size: 1.5rem;
+}
+form input[type="submit"]{
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: #ccc 1px solid;
+    border-radius: 50px;
+    margin-left: 2rem;
+}
+ul{
+    display: flex;
+    width: 40%;
+}
+ul li{
+    margin: 0 1rem;
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: #ccc 1px solid;
+    border-radius: 50px;
+    margin-left: 2rem;
+}
